@@ -1,6 +1,6 @@
 package io.javabrains.springbootquickstart;
 
-public class Main {
+public class CourseApi {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
