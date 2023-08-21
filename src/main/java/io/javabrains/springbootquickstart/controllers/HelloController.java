@@ -3,7 +3,7 @@ package io.javabrains.springbootquickstart.controllers;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController //that indicates this class will handle HTTP requests and produce JSON or XML responses directly.
 public class HelloController {
 
     @RequestMapping("/hello")
